@@ -18,6 +18,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-family: "Montserrat-Bold";
 }
@@ -45,6 +51,10 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
+}
+
+.d-flex {
+    padding: 0 18px;
 }
 
 /* Download Buttons */
@@ -78,4 +88,32 @@ p {
 
 .icon:hover {
     color: #ff677ec5;
+}
+
+/* Testimonial Section */
+#testimonials {
+    text-align: center;
+    background-color: #ff677ec5;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;    
+}
+
+#press {
+    background-color: #ff677ec5;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
